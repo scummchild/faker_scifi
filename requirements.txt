@@ -1,0 +1,4 @@
+# Direct Dependencies
+Faker>=4.0.0
+
+# Secondary Dependencies
