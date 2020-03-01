@@ -5,14 +5,14 @@ Usage
 -----
 Install with setup.py
 
-.. code:: bash
+```bash
 
     git clone https://github.com/scummchild/faker_scifi
     cd faker_scifi && python setup.py install
 
 Add the ``SciFi`` provider to your ``Faker`` instance:
 
-.. code:: python
+```python
 
     from faker import Faker
     from faker_scifi import SciFi
