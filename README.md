@@ -5,6 +5,8 @@ Thanks, https://github.com/SkypLabs/faker-wifi-essid for providing a very nice t
 
 Here's the link to the main Faker project: https://github.com/SkypLabs/faker-wifi-essid
 
+Here's where a lot of the technobabble came from: https://tvtropes.org/pmwiki/pmwiki.php/Main/TechnoBabble
+
 Usage
 -----
 Install with setup.py:
