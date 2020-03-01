@@ -3,13 +3,13 @@ faker_scifi is a community provider for the Faker test data generator Python pac
 
 Usage
 -----
-Install with setup.py
+Install with setup.py:
 
 ```bash
 
     git clone https://github.com/scummchild/faker_scifi
     cd faker_scifi && python setup.py install
-
+```
 Add the ``SciFi`` provider to your ``Faker`` instance:
 
 ```python
@@ -27,3 +27,4 @@ Add the ``SciFi`` provider to your ``Faker`` instance:
         # 'inject the time-space grid'
         # 'calculate a narrow beam of gravitonic coordinates'
         # 'accelerate the external inertial emitters'
+```
