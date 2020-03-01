@@ -15,7 +15,7 @@ with fopen(join(DIR, 'README.md'), encoding='utf-8') as f:
 setup(
     name = 'faker_scifi',
     version = VERSION,
-    description = 'Faker provider for science fiction gobbledygook.',
+    description = 'Faker provider for science fiction technobabble.',
     long_description = long_description,
     license = 'MIT',
     keywords = 'faker faker-library faker-provider faker-generator scifi',

@@ -1,5 +1,5 @@
 # faker_scifi
-faker_scifi is a community provider for the Faker test data generator Python package.  This package creates science fiction gobbledygook text (e.g., "reverse the polarity of the neutron flow") just for a little nerdy fun.
+faker_scifi is a community provider for the Faker test data generator Python package.  This package creates science fiction technobabble text (e.g., "reverse the polarity of the neutron flow") just for a little nerdy fun.
 
 Thanks, https://github.com/SkypLabs/faker-wifi-essid for providing a very nice template to follow!
 
@@ -25,8 +25,8 @@ Add the ``SciFi`` provider to your ``Faker`` instance:
     fake.add_provider(SciFi)
 
     for _ in range(1,5):
-        fake.gook()
-        
+        fake.babble()
+
         # 'short circuit the heavy-ion core'
         # 'inject the time-space grid'
         # 'calculate a narrow beam of gravitonic coordinates'

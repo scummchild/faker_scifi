@@ -2,9 +2,9 @@
 
 from faker.providers import BaseProvider
 
-
+# Based loosely on https://tvtropes.org/pmwiki/pmwiki.php/Main/TechnoBabble
 class SciFi(BaseProvider):
-    gobbledygook = (
+    technobabble = (
         ('reverse',
          'increase',
          'absorb',
@@ -71,12 +71,12 @@ class SciFi(BaseProvider):
          'dampener',
          'mainframe'))
 
-    def gook(self):
+    def babble(self):
         """
         :example 'reverse the polarity of the neutron flow'
         """
         result = []
-        for phrase in self.gobbledygook:
+        for phrase in self.technobabble:
             result.append(self.random_element(phrase))
 
         return " ".join(result)
