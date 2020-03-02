@@ -3,6 +3,7 @@
 from faker.providers import BaseProvider
 
 # Based loosely on https://tvtropes.org/pmwiki/pmwiki.php/Main/TechnoBabble
+# and https://youtu.be/naXLxNX4UZc
 class SciFi(BaseProvider):
     technobabble = (
         ('reverse',
