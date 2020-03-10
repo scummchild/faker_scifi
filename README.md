@@ -3,7 +3,7 @@ faker_scifi is a community provider for the Faker test data generator Python pac
 
 Thanks, https://github.com/SkypLabs/faker-wifi-essid for providing a very nice template to follow!
 
-Here's the link to the main Faker project: https://github.com/SkypLabs/faker-wifi-essid
+Here's the link to the main Faker project: https://github.com/joke2k/faker
 
 Here's where a lot of the technobabble came from:
    * https://tvtropes.org/pmwiki/pmwiki.php/Main/TechnoBabble
