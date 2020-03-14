@@ -102,7 +102,7 @@ class SciFi(BaseProvider):
         'concentration of',
         'radiated',
         'coherent',
-        'large quantities of the',
+        'large quantity of the',
         'functional',
         'magnetospheric',
         'bioregenerative',
