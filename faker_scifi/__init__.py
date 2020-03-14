@@ -109,7 +109,7 @@ class SciFi(BaseProvider):
         'memory',
         'phased',
         'Heisenberg',
-        'gravitational'
+        'gravitational',
         'double',
         'liquid',
         'turbo',
