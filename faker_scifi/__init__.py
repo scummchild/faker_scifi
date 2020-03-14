@@ -117,7 +117,7 @@ class SciFi(BaseProvider):
 
     technobabble['adjectives starting with vowel'] = (
         'epithelial',
-        'atomic'
+        'atomic',
         'external inertial',
         'infinite',
         'electro-magnetic',
