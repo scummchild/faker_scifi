@@ -265,8 +265,10 @@ class SciFi(BaseProvider):
         else:
             article_choice = 'the'
 
-        if article_choice in ('a', 'an'):
+        if article_choice == 'an':
             adjective_choice = 'adjectives starting with vowel'
+        elif article_choice == 'a':
+            adjective_choice = 'adjectives starting with consonant'
         else:
             adjective_choice = self.random_element(adjective_choices)
 
