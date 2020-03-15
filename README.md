@@ -28,11 +28,12 @@ Add the ``SciFi`` provider to your ``Faker`` instance:
     fake = Faker()
     fake.add_provider(SciFi)
 
-    for _ in range(1,5):
+    for _ in range(1,6):
         fake.babble()
 
         # 'short circuit the heavy-ion core'
         # 'inject the time-space grid'
         # 'calculate a narrow beam of gravitonic coordinates'
         # 'accelerate the external inertial emitters'
+        # 'invert the theoretical particle'
 ```
