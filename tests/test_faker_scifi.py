@@ -15,3 +15,5 @@ class TestEnUS(unittest.TestCase):
         assert self.fake.babble() == 'project the source of the energies'
         assert self.fake.babble() == 'disrupt the anti- fields'
         assert self.fake.babble() == 'experience the upper overloaders'
+
+        self.assertIsInstance(self.fake.babble(), str)
