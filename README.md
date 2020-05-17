@@ -11,15 +11,13 @@ Here's where a lot of the technobabble came from:
 
 Usage
 -----
-Install with setup.py:
+Install with setup.py and add to your Faker instance:
 
 ```bash
 
     git clone https://github.com/scummchild/faker_scifi
     cd faker_scifi && python setup.py install
 ```
-Add the ``SciFi`` provider to your ``Faker`` instance:
-
 ```python
 
     from faker import Faker
