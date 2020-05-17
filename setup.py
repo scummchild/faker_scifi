@@ -18,7 +18,7 @@ setup(
     description = 'Faker provider for science fiction technobabble.',
     long_description = long_description,
     long_description_content_type='text/markdown',
-    license = 'MIT',
+    license = 'MIT License',
     keywords = 'faker faker-library faker-provider faker-generator scifi',
     author = 'Garison Spaeth',
     author_email = 'greesha@gmail.com',
