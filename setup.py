@@ -5,7 +5,7 @@ from codecs import open as fopen
 from os.path import dirname, abspath, join
 from setuptools import setup, find_packages
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 
 DIR = dirname(abspath(__file__))
 
@@ -17,6 +17,7 @@ setup(
     version = VERSION,
     description = 'Faker provider for science fiction technobabble.',
     long_description = long_description,
+    long_description_content_type='text/markdown',
     license = 'MIT',
     keywords = 'faker faker-library faker-provider faker-generator scifi',
     author = 'Garison Spaeth',
@@ -32,6 +33,8 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'License :: OSI Approved :: MIT License',
     ],
     packages = find_packages(exclude=['docs', 'tests', 'tests.*']),
